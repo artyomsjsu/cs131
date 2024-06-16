@@ -1,0 +1,16 @@
+Section A Task 1 - mkdir a1
+Section A Task 1 - cd a1
+Section A Task 2 - cd ~
+Section A Task 2 - pwd
+Section A Task 3 - id
+Section A Task 4 - cd /proc/
+Section A Task 4 - ls | grep mem
+Section A Task 4 - ls | cpu
+Section A Task 5 - head -5 meminfo
+Section A Task 6 - cat cpuinfo
+Section A Task 7 - cd /etc/
+Section A Task 7 - ls
+Section A Task 7 - head -2 os-release
+Section B Task 8 - awk '{ total += $2; count++ } END { print total/count }' 2019-05.csv
+Section B Task 9 - awk -F, '/2019-05-12/{print $17}' 2019-05.csv | sort -n | tail -1
+Section B Task 10 - awk -F, '$4 > 2 {print $9}' 2019-05.csv | sort | uniq -c | sort -n | tail -10

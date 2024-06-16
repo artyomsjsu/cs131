@@ -1,0 +1,28 @@
+Section A Task 1 - no output
+Section A Task 2 - /mnt/scratch/artyomsu24
+Section A Task 3 - uid=1257(artyomsu24) gid=1258(artyomsu24) groups=1258(artyomsu24)
+Section A Task 4 - iomem meminfo
+Section A Task 4 - cpuinfo
+Section A Task 5 - MemTotal:       73080640 kB
+Section A Task 6 - processor       : 255
+cpu             : POWER8 (architected), altivec supported
+clock           : 3425.000000MHz
+revision        : 2.1 (pvr 004b 0201)
+i am not including the whole thing lol cat was a mistake should've used tail
+256 processors POWER8 architecture 3.425 GHz
+Section A Task 7 - NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+Section B Task 8 - 13.9639
+Section B Task 9 - 460.04
+Section B Task 10 -
+  24609 234.0
+  25051 239.0
+  26782 142.0
+  27485 48.0
+  27895 162.0
+  28506 170.0
+  33678 230.0
+  36990 161.0
+  37140 237.0
+  39909 236.0
+left is occurrences right is drop off location
