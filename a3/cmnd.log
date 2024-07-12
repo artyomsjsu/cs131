@@ -1,0 +1,11 @@
+Preparation Task 0: cat /etc/passwd
+sed Tasks 1: sed -n /^1.0/p 2019-10.csv
+sed Tasks 1: wc vendor2.csv
+sed Tasks 2:  sed s/[:"-]//g 2019-10.csv
+sed Tasks 2:  head -10 no-seperators.csv
+sed Tasks 3:  sed s/..[0-9]*//g no-seperators.csv > no-fractions.csv
+sed Tasks 3:  head -10 no-fractions.csv
+awk Tasks 4:  awk -F, '$17 >= 10 {print $14}' 2019-10.csv | sort -nr | uniq -c > results.txt
+awk Tasks 5:  sort -nr -k1 results.txt > temp
+awk Tasks 5:  head -5 temp
+idk how i'd use awk for 5 when sort is that simple
